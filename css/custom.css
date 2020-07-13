@@ -1,0 +1,38 @@
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 30px;
+    border: transparent;
+}
+
+/*media all*/
+.mac-footer {
+    background: #7a003c;
+    color: #fff;
+	height: 200px;
+}
+.mac-footer a{
+    color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-top: 15px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #7a003c;
+    background-color: #fff;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3F3F3F;
+    border-color: #2D2D2D;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #606060;
+    border-color: #3F3F3F;
+}
