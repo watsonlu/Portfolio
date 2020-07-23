@@ -27,4 +27,4 @@ jobs:
         # FTP account username
         ftp-username: "githubactions"
         # FTP account password
-        ftp-password: "FTP_PASSWORD"
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
